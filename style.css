@@ -1,0 +1,79 @@
+body{
+    background-color: #333;
+    background-image: url(Imagini/fundal/Imagine_de_fundal.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: non;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+
+#Titlu{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(80, 80, 80, 0.8) ;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+#Titlu h1{
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+    margin:0 auto;
+    color: #007bff;
+}
+#Titlu Img{
+
+    margin-left: 10px;
+    max-width: 80px;
+    max-height: 80px;
+}
+#Titlu a:hover{
+    opacity: 0.7;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color:  rgba(80, 80, 80, 0.8);
+}
+
+nav a{
+    display: flex;
+    justify-content: flex-end;
+
+    position: relative;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+}
+nav a:hover{
+    cursor: pointer;
+    background-color: #6ab2ff;
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 5px;
+}
+
+#main{
+    max-width: 75%;
+    margin: 0 auto;
+    background-color: rgba(80, 80, 80, 0.5);
+    padding: 5px;
+    border-radius: 20px;
+}
+#imgCreator{
+
+ border: 3px solid rgba(0, 0, 0, 0.4);
+ border-radius: 2px;
+ margin: 15px;
+}
+#iframe{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border: 0.5em solid rgba(80, 80, 80, 0.8);
+    border-radius: 5px;
+}

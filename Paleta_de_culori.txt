@@ -1,0 +1,7 @@
+#505050
+#333
+#FFFFFF (Alb): Culoarea textului pe fundalurile închise, pentru contrast și lizibilitate.
+#007BFF (Albastru deschis): Culoarea accent pentru link-uri și elemente interactive, adaugă un punct de interes.
+#6AB2FF (Albastru deschis la hover): O variantă mai deschisă a culorii accent pentru hover, menține coerența.
+#E0E0E0 (Gri deschis): O nuanță deschisă de gri pentru borduri subtile sau fundaluri alternative.
+#A9A9A9 (Gri mediu): O nuanță medie de gri pentru text secundar sau elemente mai puțin importante.
