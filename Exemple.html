@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang = "ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width , initial-scale=1.0">
+    <title>Dezavantaje</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Imagini/Favcon/Favconpng.png">
+</head>
+<body>
+    <header>
+        <div id="Titlu">
+            <a href="index.html">
+                <img src="Imagini/Cpp_Logo.png" >
+            </a>
+            <h1>Exemple de Cod </h1> 
+        </div>
+        <nav>
+            <a href="index.html">Acasa</a>
+            <a href="avantaje.html">Avantaje</a>
+            <a href="resurse.html">Resurse</a>
+            <a href="despre.html">Despre</a>
+            <a id="Bac" onclick="schimbaFundal(imagini)">Change Background</a>
+        </nav>
+
+        <main id="main">
+            <h2 style="text-align: justify;">
+                Cpp este un limbaj bine structurat si specific , tocmai de aceea pentru fiecare variabila trebuie specificat
+                tipul de data pe care urmeaza sa o stocheze 
+            </h2>
+            <br>
+            <h2>Tipuri de date : </h2>
+
+            <p style="font-size: 1.2rem;">
+                <span id="DataType">Int</span>  -   acest tip de data reprezinta numerele intregi , adica toate numerele fara virgula ex : 1 2 3 -4 -5 etc 
+                 si are o dimensiune de 4 bits , cea ce inseamna ca poate stoca numere de la <span style="text-decoration: underline; font-size: 1.3rem;">-2,147,483,648</span> 
+                până   la <span style="text-decoration: underline; font-size: 1.3rem;">2,147,483,647</span>
+                
+                <br>
+                <br>
+                <span id="DataType">Float</span> - acest tip de data stocheaza toate numerele reale , adica numerele cu virgula 
+                spre exemplu 1,2  5,76 etc
+                <br>
+                <br>
+                <span id="DataType">Bool</span> -Bool este un tip de data care stocheaza doar 1 sau 0 reprezentand Adevrat sau Fals. Acest tip de  data este util 
+                cand este nevoie de o variabila care sa mentia o conditie , adevarata sau falsa 
+                <br>
+                <br>
+                <span id="DataType">Char</span> -Char este tipul de data care memoreaza caracterele , spre exemplu "a" sau "b" . Aceast tip de  variabila 
+                ocupa doar 8biti iar din acest motiv poate memora doar un singur caracter 
+
+                <br>
+
+            </p>
+            <p style="font-size: 1.2rem; margin: 10px;">
+                <br>
+                Ca in orice limbaj de programare si in Cpp exista conceptul de arry . Acest obict este defapt un container ce contine mai multe elemente de acelasi tip ,
+                iar fiecare element din arry poate fi accesat prin indexul sau .
+                <figure>
+                    <img src="Imagini/CppExemple/Arry.png" id="imgCreator" width="95%" height="automat">
+                    <figcaption>Exemplul reprezinta vizualizarea grafica a unui arry , acesta specifica tipul de data si indexul </figcaption>
+                </figure>
+            </p>
+            <p style="font-size: 1.2rem; margin: 10px;">
+                Exeplu urmator va prezenta metoda de declarare a unui arry in cpp , iar acest lucru se va face prin specificarea tipului de data pe urma numele 
+                arry-ului 
+                <br>
+                <img src="Imagini/CppExemple/ArryExcpp.png" id="imgCreator" width="95%" height="automat">
+            </p>
+            <p style="font-size: 1.2rem; margin: 10px;">
+                Acestea sunt doar niste elemente de baza in cpp , acum este timpul de a va prezenta exemple de algoritmi 
+                dar prima data sa incepem cu primul program pe care il scrie orice programator :
+            </p>
+            <figure>
+                <img src="Imagini/CppExemple/Hello World.png" id="imgCreator" width="auto" height="350px">
+                <figcaption>Acest program va afisa pe ecran Hello World </figcaption>
+            </figure>
+            <br><br>
+            <p style="font-size: 1.2rem; margin: 10px;">
+                Urmatorul algoritm este un algoritm de sortare si anume Buble Sort: <br>
+                <img src="Imagini/CppExemple/bublesort.png" id="imgCreator" width="90%" height="auto">
+                <figcaption>Acest acesta este algoritmul de sortare bublesort </figcaption>
+            </p>
+
+            <label for="numarElemente">Număr elemente:</label>
+            <input type="number" id="numarElemente" value="20" min="1" max="100">
+
+            <label for="viteza">Viteză sortare:</label>
+            <input type="range" id="viteza" min="1" max="500" value="50">
+            
+            <button onclick="sortareVizualizare()">Sortează</button>
+            <div id="container"></div>
+
+
+        </main>
+        <script src="script.js"></script>
+    </header>
